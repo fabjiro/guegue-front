@@ -1,9 +1,10 @@
 import { Routes, Route } from "react-router-dom";
+import { HomeScreen } from "./HomeScreen";
 
 function HomeRoutes() {
   return (
     <Routes>
-      <Route index element={<h1>pagina inicial</h1>} />
+      <Route index element={<HomeScreen/>} />
     </Routes>
   );
 }
